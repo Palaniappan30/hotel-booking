@@ -12,6 +12,11 @@ This project is a hotel management system built using React for the frontend and
 - **RoomTypeSelector**: Enables users to select the type of room they want to book.
 - **RoomNumberSelector**: Helps users choose the room number for booking.
 
+## Location of Codes
+- Open src and inside Components
+- Both React and CSS codes
+- app.py is the backend code
+
 ## Technologies Used
 
 - **Frontend**: React.js

@@ -1,0 +1,274 @@
+/* src/styles.css */
+
+/* Set background color */
+body {
+  background-color: #FFFBF5;
+}
+
+/* Title styling */
+.title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #7743DB;
+  margin: 20px;
+}
+
+/* Center content vertically and horizontally */
+.center-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Style for the form */
+.booking-form {
+  max-width: 600px;
+  padding: 20px;
+  background-color: #FFFBF5; /* Background color */
+  border: 4px solid #F7EFE5; /* Thick outline */
+  border-radius: 16px; /* Rounded corners */
+  box-shadow: none; /* Remove shadows */
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #7743DB;
+}
+
+/* Style for the form headings */
+.form-heading {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #7743DB;
+  text-align: center;
+}
+
+/* Style for form controls */
+.form-control {
+  border: 2px solid #F7EFE5; /* Border color */
+  border-radius: 15px; /* Rounded corners */
+  background-color: #FFFBF5; /* Background color */
+  color: #7743DB; /* Text color */
+  box-shadow: none; /* Remove shadows */
+  padding: 10px; /* Add padding */
+  margin-bottom: 15px; /* Fixed distance between input fields */
+  width: calc(100% - 20px); /* Fix input field width */
+  transition: border-color 0.3s ease; /* Add transition effect */
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Style for the date pickers */
+.date-picker {
+  border: 2px solid #F7EFE5; /* Border color */
+  border-radius: 15px; /* Rounded corners */
+  background-color: #FFFBF5; /* Background color */
+  color: #7743DB; /* Text color */
+  box-shadow: none; /* Remove shadows */
+  padding: 10px; /* Add padding */
+  width: calc(100% - 20px); /* Fix input field width */
+  transition: border-color 0.3s ease; /* Add transition effect */
+}
+
+/* Hover effect for date pickers */
+.date-picker:hover {
+  border-color: #C3ACD0; /* Border color on hover */
+}
+/* Style for the submit button */
+.submit-button {
+  width: calc(100% - 20px); /* Fix button width */
+  border: 2px solid #F7EFE5; /* Border color */
+  border-radius: 25px; /* Rounded corners */
+  background-color: #7743DB; /* Background color */
+  color: #FFFBF5; /* Text color */
+  box-shadow: none; /* Remove shadows */
+  padding: 10px; /* Add padding */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Add transition effect */
+  cursor: pointer; /* Change cursor on hover */
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Hover effect for submit button */
+.submit-button:hover {
+  background-color: #C3ACD0; /* Darker background color on hover */
+  color: #FFFBF5; /* Text color on hover */
+  
+}
+
+/* Click effect for submit button */
+.submit-button:active {
+  background-color: #42235A; /* Even darker background color on click */
+}
+
+/* src/styles.css */
+
+/* Style for the table container */
+.table-container {
+  
+  background-color: #FFFBF5; /* Background color */
+  box-shadow: none; /* Remove shadows */
+  font-family: 'Poppins', sans-serif; /* Use Poppins font */
+}
+
+/* Style for the table */
+.custom-table {
+  margin-top: 20px; /* Add margin to separate from form */
+  width: 100%; /* Make table width 100% */
+  border-collapse: collapse; /* Collapse table borders */
+  border-radius: 16px; /* Rounded corners */
+}
+
+.custom-table th,
+.custom-table td {
+  padding: 10px; /* Add padding to table cells */
+  border: 2px solid #F7EFE5; /* Border color */
+  background-color: #FFFBF5; /* Background color */
+  color: #7743DB; /* Text color */
+}
+
+.custom-table th {
+  font-weight: bold; /* Make table headers bold */
+  text-align: center; /* Center align table headers */
+}
+
+/* Style for table actions buttons */
+.table-action-button {
+  margin-right: 5px; /* Add margin between buttons */
+  font-family: 'Poppins', sans-serif; /* Use Poppins font */
+  font-size: 14px; /* Adjust font size */
+  font-weight: bold; /* Make buttons bold */
+}
+
+/* Style for modal */
+/* Style for modal */
+
+.modal-overlay {
+  position: fixed; /* Fixed positioning */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
+  z-index: 999; /* Ensure overlay is above other elements */
+}
+
+/* Style for the page content */
+.page-content {
+  position: relative; /* Relative positioning */
+  z-index: 1; /* Ensure content is above overlay */
+}
+/* Style for modal */
+.modal-content {
+  position: fixed; /* Fixed positioning */
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Center the modal */
+  max-width: 80%; /* Limit maximum width */
+  max-height: 80%; /* Limit maximum height */
+  overflow: auto; /* Enable scrolling if content exceeds modal size */
+  border: 4px solid #F7EFE5; /* Thick outline */
+  border-radius: 16px; /* Rounded corners */
+  background-color: #FFFBF5; /* Background color */
+  color: #7743DB; /* Text color */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Neat and tighter shadow */
+  z-index: 1000; /* Ensure modal is above overlay */
+
+  font-family: 'Poppins', sans-serif; /* Use Poppins font */
+  font-size: 14px; /* Adjust font size */
+  font-weight: bold; /* Make buttons bold */
+}
+
+/* Style for modal title */
+.modal-title {
+  font-family: 'Poppins', sans-serif; /* Use Poppins font */
+  font-size: 24px; /* Adjust font size */
+  font-weight: bold; /* Make title bold */
+  color: #7743DB; /* Text color */
+}
+
+/* Style for modal footer */
+.modal-footer {
+  border-top: 2px solid #F7EFE5; /* Border color */
+}
+
+/* Style for modal buttons */
+.modal-button {
+  font-family: 'Poppins', sans-serif; /* Use Poppins font */
+  font-size: 14px; /* Adjust font size */
+  font-weight: bold; /* Make buttons bold */
+  background-color: #7743DB; /* Background color */
+  color: #FFFBF5; /* Text color */
+  border: none; /* Remove button border */
+  border-radius: 15px; /* Rounded corners */
+  padding: 8px 16px; /* Add padding */
+  cursor: pointer; /* Change cursor on hover */
+}
+
+/* Hover effect for modal buttons */
+.modal-button:hover {
+  background-color: #C3ACD0; /* Darker background color on hover */
+}
+
+.button-container {
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Arrange buttons vertically */
+  gap: 10px; /* Add space between buttons */
+}
+
+/* Style for the edit button */
+.edit-button {
+  background-color: #7743DB; /* Background color */
+  color: #FFFBF5; /* Text color */
+  border: 2px solid #F7EFE5; /* Border color */
+  border-radius: 25px; /* Rounded corners */
+  font-family: 'Poppins', sans-serif; /* Font family */
+  padding: 8px 0; /* Adjust padding */
+  font-size: 14px; /* Adjust font size */
+  width: 100%; /* Make buttons take full width */
+  font-weight: bold; /* Font weight */
+  cursor: pointer; /* Cursor style */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transition effect */
+}
+
+/* Hover effect for the edit button */
+.edit-button:hover {
+  background-color: #C3ACD0; /* Darker background color on hover */
+  color: #FFFBF5; /* Text color on hover */
+}
+
+/* Click effect for the edit button */
+.edit-button:active {
+  background-color: #42235A; /* Even darker background color on click */
+}
+
+/* Style for the cancel button */
+.cancel-button {
+  background-color: #FF5858; /* Background color */
+  color: #FFFBF5; /* Text color */
+  border: 2px solid #F7EFE5; /* Border color */
+  border-radius: 25px; /* Rounded corners */
+  font-family: 'Poppins', sans-serif; /* Font family */
+  padding: 8px 0; /* Adjust padding */
+  font-size: 12px; /* Adjust font size */
+  width: 100%; /* Make buttons take full width */
+  font-weight: bold; /* Font weight */
+  cursor: pointer; /* Cursor style */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transition effect */
+}
+
+/* Hover effect for the cancel button */
+.cancel-button:hover {
+  background-color: #FF8585; /* Darker background color on hover */
+  color: #FFFBF5; /* Text color on hover */
+}
+
+/* Click effect for the cancel button */
+.cancel-button:active {
+  background-color: #A53F3F; /* Even darker background color on click */
+}
+
+
